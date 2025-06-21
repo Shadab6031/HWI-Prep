@@ -1,4 +1,4 @@
-public class Solution {
+public class NonOverlappingIntervals {
     public int eraseOverlapIntervals(int[][] intervals) {
         Arrays.sort(intervals,(a,b) -> Integer.compare(a[1],b[1]));
         int end = Integer.MIN_VALUE;
